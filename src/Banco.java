@@ -1,4 +1,4 @@
-public class cliente {
+public class Banco {
     private String nome;
 
     public String getNome() {

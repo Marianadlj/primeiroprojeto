@@ -1,4 +1,4 @@
-public class contaCorrente {
+public abstract class Conta implements InterConta{
     private int agencia;
     private int numero;
     private double saldo;
@@ -26,5 +26,19 @@ public class contaCorrente {
     public double getSaldo() {
         return saldo;
     }
-}
 
+    @Override
+    public void sacar(double valor) {
+
+    }
+
+    @Override
+    public void depositar(double valor) {
+
+    }
+
+    @Override
+    public void transferir(double valor, InterConta contaDestino) {
+
+    }
+}
